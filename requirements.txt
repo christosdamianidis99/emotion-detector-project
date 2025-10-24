@@ -1,0 +1,15 @@
+numpy
+pandas
+librosa
+scikit-learn
+tensorflow
+keras # Although included with TF, good to list explicitly
+matplotlib
+seaborn
+Flask
+sounddevice # For notebook live demo
+soundfile # For notebook live demo
+ipykernel # For Jupyter
+ipywidgets # For tqdm in Jupyter
+tqdm
+# Add any other specific libraries you installed

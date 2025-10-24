@@ -205,3 +205,54 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Saved Keras/TFLite Models (usually large)
+*.keras
+*.tflite
+
+# Audio Data Files
+*.wav
+*.mp3
+# Add other audio formats if needed
+
+# Python environments
+/ser_final/
+/venv/
+/.venv/
+env/
+venv.bak/
+ENV/
+
+# Python Caches
+__pycache__/
+*.py[cod]
+
+# IDE files
+.vscode/
+.idea/
+
+# Flutter specific (for later)
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+ios/Pods/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.*
+android/.gradle/
+android/app/build/
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradlew
+android/gradlew.bat
+android/local.properties
+*.iml
+*.metadata
