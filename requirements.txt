@@ -3,13 +3,13 @@ pandas
 librosa
 scikit-learn
 tensorflow
-keras # Although included with TF, good to list explicitly
+keras
 matplotlib
 seaborn
 Flask
-sounddevice # For notebook live demo
-soundfile # For notebook live demo
-ipykernel # For Jupyter
-ipywidgets # For tqdm in Jupyter
+sounddevice
+soundfile
+ipykernel
+ipywidgets
 tqdm
-# Add any other specific libraries you installed
+gunicorn
