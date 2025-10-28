@@ -1,0 +1,37 @@
+Start the Python Server:
+
+Open Anaconda Prompt.
+
+Navigate to your Python project folder: cd C:\Code\Python
+
+Activate the environment: conda activate ser_final
+
+Run the server: python server.py
+
+Keep this window open. ✅
+
+Connect Your Android Phone:
+
+Enable Developer Options and USB Debugging on your phone.
+
+Connect your phone to your computer via USB cable.
+
+Authorize the connection on your phone if prompted.
+
+Set Up ADB Port Forwarding:
+
+Open a new Command Prompt or PowerShell window.
+
+Run the ADB reverse command: adb reverse tcp:5000 tcp:5000
+
+Keep this window open (or you can close it after running the command, but you'll need to re-run it if you disconnect/reconnect the phone). ✅
+
+Run the Flutter App:
+
+Make sure your main.dart file uses the localhost URL: const String serverUrl = 'http://127.0.0.1:5000/predict';
+
+Open your Flutter project in Android Studio.
+
+Select your connected physical device from the device dropdown.
+
+Click the green "Run" button. ▶️

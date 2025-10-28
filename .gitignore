@@ -256,3 +256,25 @@ android/gradlew.bat
 android/local.properties
 *.iml
 *.metadata
+
+# Flutter specific
+emotion_detector_app/build/
+emotion_detector_app/.dart_tool/
+emotion_detector_app/.flutter-plugins
+emotion_detector_app/.flutter-plugins-dependencies
+emotion_detector_app/.packages
+emotion_detector_app/.pub-cache/
+emotion_detector_app/ios/Pods/
+emotion_detector_app/ios/Flutter/App.framework
+emotion_detector_app/ios/Flutter/Flutter.framework
+emotion_detector_app/ios/Flutter/Generated.xcconfig
+emotion_detector_app/ios/Flutter/flutter_export_environment.sh
+emotion_detector_app/ios/Runner/GeneratedPluginRegistrant.*
+emotion_detector_app/android/.gradle/
+emotion_detector_app/android/app/build/
+emotion_detector_app/android/gradle/wrapper/gradle-wrapper.jar
+emotion_detector_app/android/gradlew
+emotion_detector_app/android/gradlew.bat
+emotion_detector_app/android/local.properties
+emotion_detector_app/*.iml
+emotion_detector_app/.metadata
