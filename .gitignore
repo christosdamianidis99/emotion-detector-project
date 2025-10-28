@@ -235,27 +235,6 @@ __pycache__/
 .vscode/
 .idea/
 
-# Flutter specific (for later)
-build/
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-ios/Pods/
-ios/Flutter/App.framework
-ios/Flutter/Flutter.framework
-ios/Flutter/Generated.xcconfig
-ios/Flutter/flutter_export_environment.sh
-ios/Runner/GeneratedPluginRegistrant.*
-android/.gradle/
-android/app/build/
-android/gradle/wrapper/gradle-wrapper.jar
-android/gradlew
-android/gradlew.bat
-android/local.properties
-*.iml
-*.metadata
 
 # Flutter specific
 emotion_detector_app/build/
