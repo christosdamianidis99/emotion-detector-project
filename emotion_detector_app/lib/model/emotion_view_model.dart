@@ -10,7 +10,7 @@ import 'package:http_parser/http_parser.dart';
 import 'dart:convert'; // For jsonDecode
 
 // --- Your Server URL ---
-const String serverUrl = 'http://127.0.0.1:5000/predict';
+const String serverUrl = 'http://34.122.90.250:5000/predict';
 // --- Emotion Data Class (Moved here) ---
 class EmotionData {
   final Color color;
