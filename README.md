@@ -37,7 +37,7 @@ speech_emotion_detector_project/
 │        ├── audio_utils.py  
 │        └── features.py  
 │  
-├── flutter_app/ (optional)  
+├── flutter_app/   
 ├── reports/  
 └── requirements.txt  
 
